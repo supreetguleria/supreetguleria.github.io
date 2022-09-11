@@ -1,0 +1,177 @@
+html
+{
+ font-size: 62.5%;
+}
+body
+{
+    
+    background-image: url(https://v3img.voot.com/resizeHigh,w_1280,h_720/v3Storage/assets/nba-1653991119750.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.box
+{
+
+  background-color: white;
+  border:0.1rem ;
+  margin-left: 30rem;
+  margin-right:40rem;
+  margin-top: 10rem;
+  margin-bottom:10rem;
+  border-radius: 1rem;
+  
+}
+
+img
+{
+ border-radius: 1rem 0rem 0rem 1rem;
+ float: left;
+}
+h1
+{
+    margin-left: 10cm;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(6, 6, 6, 0.791);
+    font-size: 2.7rem;
+    
+}
+
+.form
+{
+ margin-left: 10cm;
+ font-family: Arial, Helvetica, sans-serif ;
+ color: rgba(41, 41, 41, 0.876);
+ font-size: 1.7rem;
+ 
+}
+.space
+{
+    margin-top: 0.337cm;
+}
+
+#name
+{
+
+ border: 0.1rem solid rgba(0, 0, 0, 0.243);
+ border-radius: 0.5rem;
+ width: 10cm;
+ height: 0.8cm;
+}
+
+#email
+{
+    border: 0.1rem solid rgba(0, 0, 0, 0.243);
+    border-radius: 0.5rem;
+    width: 10cm;
+    height: 0.8cm;
+}
+#date
+{
+ border: 0.1rem solid rgba(0, 0, 0, 0.243);
+ border-radius: 0.5rem;
+ width: 10cm;
+ height: 0.8cm;
+}
+#pwd1
+{
+ border: 0.1rem solid rgba(0, 0, 0, 0.361);
+ border-radius: 0.5rem;
+ width: 10cm;
+ height: 0.8cm;
+}
+#pwd2
+{
+    border: 0.1rem solid rgba(0, 0, 0, 0.243);
+ border-radius: 0.5rem;
+ width: 10cm;
+ height: 0.8cm;
+}
+a
+{
+    margin-left: 0.7cm;
+    color: #1F60F0;
+}
+a:hover{color: #083fb4;}
+
+.register
+{
+ background-color: #1F60F0;
+ border: 0.1rem ;
+ border-radius: 0.5rem;
+ width: 4cm;
+ height: 1cm;
+ color: white;
+ font-size: 1.5rem;
+ margin-bottom: 0.2cm;
+ cursor: pointer;
+}
+.register:hover{background-color: #083fb4;}
+
+@media only screen and (max-width: 440px) 
+{
+   
+    .box{
+        margin-top: 0.15cm;
+        margin-left: 0.15cm;
+        margin-right: 0.15cm;
+        margin-bottom: 0.15cm;
+    }
+    img{
+        border-radius: 1rem 1rem 0rem 0rem;
+        width: 100%;
+        
+    }
+    h1{
+        margin-left: 0.3cm;
+    }
+    .form{
+        margin-left: 0.15cm;
+        font-size: 2rem ;
+
+    }
+    #name{
+        width: 9.5cm;
+    }
+    #email{
+        width: 9.5cm;
+    }
+    #date{
+        width: 9.5cm;
+    }
+    #pwd1{
+        width: 9.5cm;
+    }
+    #pwd2{
+        width: 9.5cm;
+    }
+}
+@media only screen and (max-width: 400px) 
+{
+   
+    .box{
+        margin-top: 0.1cm;
+        margin-left: 0.1cm;
+        margin-right: 0.1cm;
+        margin-bottom: 0.1cm;
+    }
+   
+    h1{
+        margin-left: 0.12cm;
+    }
+    #name{
+        width: 9.3cm;
+    }
+    #email{
+        width: 9.3cm;
+    }
+    #date{
+        width: 9.3cm;
+    }
+    #pwd1{
+        width: 9.3cm;
+    }
+    #pwd2{
+        width: 9.3cm;
+    }
+}
