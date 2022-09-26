@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <meta name="author" content="Supreet Guleria">
+        
+        <link rel="stylesheet"
+         type="text/css"
+         href="style.css"
+         />
+         <script src="script.js" defer></script>
+         
+         <title>Weather Forecast App</title>
+    </head>
+    <body>
+        
+        <div class="card">
+
+        <div class="search">
+
+        <input type="text" placeholder="Enter your city" class="search-box">
+        <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+          </svg></button>
+        <p class="navbar_city"> city, country</p>
+        <p></p>
+        <div class="web_logo"><u><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="logo" viewBox="0 0 16 16">
+            <path d="M8 3a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 3zm8 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zm-13.5.5a.5.5 0 0 0 0-1h-2a.5.5 0 0 0 0 1h2zm11.157-6.157a.5.5 0 0 1 0 .707l-1.414 1.414a.5.5 0 1 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm-9.9 2.121a.5.5 0 0 0 .707-.707L3.05 5.343a.5.5 0 1 0-.707.707l1.414 1.414zM8 7a4 4 0 0 0-4 4 .5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5 4 4 0 0 0-4-4z"/>
+          </svg></div>
+          <div class="web_name">WeatherApp</div></u>
+        </div> 
+     <div class="flex">
+        
+        <!-- current day weather-->
+        <div class="current-weather"> 
+            <div class="city">Current Weather</div>
+            <div class="date-time">Date</div>
+            <div class="temp">temp°C</div>
+            <img src="" alt="weather" class="weather-icon"width="100" height="110">
+            <div class="description">Cloudy</div>
+            <div class="wind-speed">Wind: 6 km/h</div>
+            <div class="humidity">Humidity: 92%</div>
+        </div>
+
+      <div class="forecast-for-upcoming-days">
+        <div><h2>7 Day Forecast</h2></div>  
+        <!-- second day weather-->
+        <div class="weather"> 
+            <div style="font-size: 15px;" class="date">Sunday July 21</div>
+            <div style="margin-top: 15px;"class="temp1">23°C</div>
+            <img src="" alt="weather" class="weather-icon0">
+            <div class="description1">Cloudy</div>
+        </div>
+
+        <!-- third day weather-->
+        <div class="weather"> 
+            <div style="font-size: 15px;" class="date1">Sunday July 22</div>
+            <div style="margin-top: 15px;"class="temp2">23°C</div>
+            <img src="" alt="weather" class="weather-icon1">
+            <div class="description2">Cloudy</div>
+        </div>
+
+        <!-- forth day weather-->
+        <div class="weather"> 
+            <div style="font-size: 15px;"class="date2">Sunday July 23</div>
+            <div style="margin-top: 15px;"class="temp3">23°C</div>
+            <img src="" alt="weather" class="weather-icon2">
+            <div class="description3">Cloudy</div>
+        </div>
+
+        <!-- fifth day weather-->
+        <div class="weather"> 
+            <div style="font-size: 15px;" class="date3">Sunday July 24</div>
+            <div style="margin-top: 15px;"class="temp4">23°C</div>
+            <img src="" alt="weather" class="weather-icon3">
+            <div class="description4">Cloudy</div>
+        </div>
+
+        <!-- sixth day weather-->
+        <div class="weather"> 
+            <div style="font-size: 15px;" class="date4">Sunday July 25</div>
+            <div style="margin-top: 15px;"class="temp5">23°C</div>
+            <img src="" alt="weather" class="weather-icon4">
+            <div class="description5">Cloudy</div>
+        </div>
+
+        <!-- seventh day weather-->
+        <div class="weather"> 
+            <div style="font-size: 15px;" class="date5">Sunday July 26</div>
+            <div style="margin-top: 15px;"class="temp6">23°C</div>
+            <img src="" alt="weather" class="weather-icon5">
+            <div class="description6">Cloudy</div>
+        </div>
+
+        <!-- eighth day weather-->
+        <div class="weather"> 
+            <div style="font-size: 15px;"  class="date6">Sunday July 27</div>
+            <div style="margin-top: 15px;" class="temp7">Max 23°C / Min 18°C</div>
+            <img src="" alt="weather" class="weather-icon6">
+            <div class="description7">Cloudy</div>
+        </div>
+
+      </div>
+     </div>
+
+     
+    </body>

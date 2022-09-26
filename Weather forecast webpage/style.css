@@ -1,0 +1,129 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/95/21/51/95215106009c3cccc0fa61dc28ff9765.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.search{
+    border: 0px ;
+    background-color:#023059d5;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px; 
+    color: #FFFDD0;
+    border-radius: 5px;
+}
+.navbar_city{
+    margin-left: 25px;
+    margin-top: 10px; 
+}
+.web_name{
+    margin-top: 10px; 
+}
+.web_logo{
+    margin-left: 400px;
+    margin-top: 7px;
+}
+::placeholder { 
+    color: #FFFDD0;
+  }
+.search-box{
+    color: #FFFDD0;
+    height: 30px;
+    width: 500px;
+    border: 0px ;
+    border-radius: 6px 0px 0px 6px ;
+    margin-top: 10px;
+    background-color: #0368a6;
+    margin-left: 5px;
+    
+}
+button{
+    margin-top: 10px;
+    width: 60px;
+    height: 32px;
+    border-radius: 0px 6px 6px 0px;
+    border: 0px ;
+    background-color: #0368a6;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    
+}
+.current-weather{
+    border: 0px;
+    background-color: #023059d7;
+    border-radius: 10px;
+    margin-top: 80px;
+    color:#FFFDD0;
+    
+}
+.city{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+.temp{
+    font-size: 100px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.date-time{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.description{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.wind-speed{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.humidity{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.forecast-for-upcoming-days{
+    color:#FFFDD0;
+    border-radius: 0px 10px 10px 0px;
+        width: 400px;
+        height: 580px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align:justify;
+
+    margin-top: 80px;
+    margin-right: 45px;
+}
+  
+.weather  {
+    background-color: #0368a6e3;
+    margin: 25px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    height: 150px;
+    font-size: 20px;
+  }
+  
+  h2{
+    margin-top: 0px;
+    background-color: #0368a6e3;
+    border-radius: 10px;
+    font-size: 26px;
+    margin-left: 10px;
+    margin-right: 30px;
+    height: 50px;
+    text-align: center;
+    
+  }
